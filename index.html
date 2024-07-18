@@ -1,0 +1,100 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <!-- коммент через cmd+/ -->
+    <!-- чтобы не писать <> напиши тег и нажми TAB -->
+    <!-- чтобы создать структуру HTML нажми !+TAB -->
+    <!-- чтобы убрать лишние пробелы и символы в коде нажми  -->
+<title>Zag CV</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- чтобы сделать фото слева,а текст справа- делаем табл 
+    с одной строкой(tr) и двумя столбцами(td) -->
+    <!-- Чтобы не писать div class можно нажать .+Tab -->
+    <div class="container">
+        <div class="info">
+            <img src="Avatar.jpg" alt="тут моё фото" class="avatar"/>
+            <H1> Zag VV</H1>
+            <p> я люблю <strong>спорт</strong>, свою работу и путешествовать </p>
+        </div>
+
+        <hr>
+
+        <div class="info2">
+            <H2>my instagram:</H2>
+            <li><a href="https://instagram.com/zagniyvv">Instagram</a></li>
+        </div>
+
+
+        <div class="card bg-yellow">
+            <h2>my hobby:</h2>
+            <ol class="list">
+                <li>sport</li>
+                <li>reading</li>
+                <li>exploring</li>
+                <li>traveling</li>
+            </ol>
+        </div> 
+
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table class="table">
+
+                <tr>
+                    <td>ЦБ РФ</td>
+                    <td>Экономист 2 кат</td>
+                    <td>2013-2016</td>
+                </tr>
+                
+                <tr>
+                    <td>ВЦ Элвари</td>
+                    <td>Экономист</td>
+                    <td>2016-2021</td>
+                </tr>
+                <tr>
+                    <td>ООО Сахнефтетрейд</td>
+                    <td>Директор</td>
+                    <td>2017-2021</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" 
+                    placeholder="Введите сюда имя...">
+                    </div>
+
+                    <div class="form-group">
+                    <label for="email">Эл.почта</label>
+                    <input type="email" 
+                    placeholder="Введите адрес почты...">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                <label for="text">Ваше сообщение</label>
+                <br>
+                <textarea id="text" rows="2" cols="15"></textarea>
+                </div>
+
+                <input class="btn" type="submit" value="Связаться!">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="position">
+        <div class="box"></div>
+    </div>
+
+    <div style="margin-bottom: 500px;"></div>
+</body>
+
+</html>
